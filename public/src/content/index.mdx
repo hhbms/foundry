@@ -1,0 +1,33 @@
+export const Ref = ({id}) => {
+  return <a href={`#fn-${id}`} className="anchor"><sup>{id}</sup></a>
+}
+
+export const Footnote = ({id}) => {
+  return <a id={`fn-${id}`} className="footnote"><sup>{id}</sup></a>
+}
+
+# The Foundry
+
+The Foundry brings together MIT students to develop tangible solutions to the world's most challenging problems.
+
+![](./foundry.jpeg)
+
+## Engineering a generalizable treatment for cancer
+
+We have known for a long time that there is no &ldquo;magic bullet&rdquo; to curing cancer. Yet we continue to search for drugs with that very mindset: first design a molecule that shows therapeutic effect on its own, then consider synergistic interactions it may have with other drugs.
+
+However, we know that cancer is a complex disease; we must consider not only the cancer cells themselves, but their lineage, the tumor microenvironment, and host immunity. We also need to consider how cancer cells adapt to treatments, and the patient's natural bodily responses to interventions.<Ref id="2"/>
+
+**The solution is to engineer multiple therapeutics that work cohesively** to defeat the multiple defenses of cancer, and to **consider the treatment regimen during the development of the therapies**.
+
+
+
+To devise a generalized strategy against cancer, we need better models that recapitulate tumor biology.
+
+
+If you're interested in building
+
+---
+
+<Footnote id="1" />
+<Footnote id="2" /> It has been shown that metastasis often arises after surgery because the patient's wound-healing response inadvertently promotes the growth of already-seeded metastases.
